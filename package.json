@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --verbose --detectOpenHandles ./test --watchAll",
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "test": "jest --verbose ./test --watchAll",
+    "dev": "nodemon -r dotenv/config index.js"
   },
   "keywords": [],
   "author": "",
